@@ -49,3 +49,12 @@ h2{
    height: 250px;
    width: 250px;
 }
+
+.team{
+   background: url("../img/Kaska-bg.png");
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
