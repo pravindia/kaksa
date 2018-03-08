@@ -41,6 +41,7 @@ h2{
    width: 250px;
 }
 .black{
+   opacity: 0.5;
    background-image:url("../img/bg.jpg");
    background-position: center;
    background-size: cover;
@@ -60,3 +61,11 @@ h2{
    background-attachment: fixed;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+    .mid{
+        height: 750px;
+    }
+}
