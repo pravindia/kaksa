@@ -43,6 +43,7 @@ h2{
 .black{
    background-image:url("../img/bg.jpg");
    background-position: center;
+   background-size: cover;
    color: white;
 }
 
