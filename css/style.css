@@ -41,7 +41,7 @@ h2{
    width: 250px;
 }
 .black{
-   background-color: rgb(117, 117, 117);
+   background-image:url("../img/bg.jpg");
    color: white;
 }
 
