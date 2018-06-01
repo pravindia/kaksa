@@ -120,7 +120,7 @@ h2 {
 }
 
 .black {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-new.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg');
     /*background-image:url("../img/bg.jpg");*/
     background-position: center;
     background-size: cover;
@@ -170,3 +170,10 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
 } */
+
+.footer img{
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    margin: 0 auto;
+}
