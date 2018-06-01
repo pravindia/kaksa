@@ -170,10 +170,15 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
 } */
-
-.footer img{
+.container .col-5{
+    font-size: 1.4rem;
+}
+.foot-er {
     height: 50px;
     width: 50px;
-    z-index: 100;
-    margin: 0 auto;
+    margin: 00px auto;
+    font-size: 2rem;
+}
+foot-er__right{
+    text-align:right;
 }
