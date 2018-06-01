@@ -1,71 +1,138 @@
-h1,h2{font-family: 'Cinzel', serif;}
-.heading{
-   color: white;
-   font-size: 72px;
-   padding-top:300px;
-   text-align: right;
-}
-.logo{
-   height: 50px;
-   width: 50px;
-   top: 30px;
-   left: 30px;
-   position: fixed;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.boox{
-   background: url("../img/Box.jpg");
-   background-position: center;
-   /* background-attachment:  absolute; */
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 700px;
-   width: 100%;
+html {
+    font-size: 10px;
 }
 
-.mid{
-   height: 500px;
-}
-h2{
-   padding: 25px;
+body {
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
-.mid img{
-   height: 400px;
-   width: 400px;
-   margin: 5px auto;
-   padding: 20px;
-}
-.icons img{
-   height: 250px;
-   width: 250px;
-}
-.black{
-   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/bg.jpg');
-   /*background-image:url("../img/bg.jpg");*/
-   background-position: center;
-   background-size: cover;
-   color: white;
+p , table {
+    font-size: 1.8rem;
 }
 
-.twoo img{
-   height: 250px;
-   width: 250px;
+h1,
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    top: 30px;
+    left: 30px;
+    position: fixed;
+    z-index: 100;
 }
 
-.team{
-   background: url("../img/Kaska-bg.png");
-   background-position: left;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
+.boox {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-image: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255, 0.1)), url("../img/bg.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+}
+
+.heading {
+    color: white;
+    font-size: 7rem;
+    padding-top: 50vh;
+    text-align: right;
+}
+
+.heading:hover{
+    text-shadow: 0 0 20px #F23E0D;
+    opacity: 0.9;
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-      
-    }
-    .mid{
-        height: 750px;
+    .heading {
+        color: white;
+        font-size: 3rem;
+        padding-top: 50vh;
+        text-align: right;
+        text-shadow: 0 0 20px #F23E0D;
     }
 }
+
+.mid {
+    min-height: 75vh;
+}
+
+.mid h4{
+    font-size: 2rem;
+}
+
+
+.mid img {
+    height: 40rem;
+    width: 40rem;
+    margin: .5rem auto;
+    padding: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .mid img {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+}
+
+.black {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg');
+    /*background-image:url("../img/bg.jpg");*/
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.icons img {
+    height: 25rem;
+    width: 25rem;
+}
+.twoo img {
+    height: 25rem;
+    width: 25rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .icons img {
+        height: 15rem;
+        width: 15rem;
+    }
+    .twoo img {
+        height: 15rem;
+        width: 15rem;
+    }
+    table {
+        font-size: 1.4rem;
+    }
+}
+
+.pre-order{
+    text-align: center;
+    border-radius: 100rem;
+    background: linear-gradient(to right bottom,#F23E0D,#F6940F) ;
+    color: #fff;
+    padding: 1rem 3.5rem;
+    margin: 1rem;
+    margin: .5rem auto;
+    text-decoration: none;
+    font-size: 2rem;
+    border: 1px solid #777;
+}
+
+/* .team {
+    background: url("../img/Kaska-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
