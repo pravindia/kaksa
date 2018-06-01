@@ -33,33 +33,46 @@ h2 {
 .boox {
     background-position: center;
     background-repeat: no-repeat;
-    height: 95vh;
-    background-image: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255, 0.1)), url("../img/bg.jpg");
+    height: 100vh;
+    background-image: url("../img/background.jpg");
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%); */
 }
 
-.heading {
-    color: white;
+/* 
+.heading{
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%,-50%);
+ }
+ 
+ .heading-main{
+    display: block;
+    letter-spacing: 3rem;
     font-size: 7rem;
-    padding-top: 50vh;
-    text-align: right;
-}
+    font-weight: 500;
+    
+ }
+ .heading-sub{
+    display: block;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    font-weight: 300;
+ }
 
 .heading:hover{
-    text-shadow: 0 0 20px #F23E0D;
+    text-shadow: 0 0 30px #F23E0D;
     opacity: 0.9;
 }
 
 @media only screen and (max-width: 600px) {
     .heading {
-        color: white;
-        font-size: 3rem;
-        padding-top: 50vh;
-        text-align: right;
         text-shadow: 0 0 20px #F23E0D;
     }
-}
+} */
 
 .mid {
     min-height: 75vh;
@@ -77,6 +90,13 @@ h2 {
     padding: 2rem;
 }
 @media only screen and (max-width: 600px) {
+    .boox {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-image: url("../img/mobile.jpg");
+        background-size: cover;
+    }
     .mid img {
         height: 100%;
         width: 100%;
