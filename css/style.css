@@ -75,8 +75,22 @@ h2 {
 } */
 
 .mid {
-    min-height: 75vh;
+    min-height: 70vh;
+    position: relative;
+
 }
+
+/* .mid-text{
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+.mid-img{
+    position: absolute;
+    top: 10%;
+    right: 0;
+} */
+
 
 .mid h4{
     font-size: 2rem;
@@ -106,7 +120,7 @@ h2 {
 }
 
 .black {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-new.jpg');
     /*background-image:url("../img/bg.jpg");*/
     background-position: center;
     background-size: cover;
